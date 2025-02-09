@@ -1,53 +1,209 @@
-nav{
-    background-color: white;
-    width: 100%;
-    height: 15vh;
+*{
+    font-family: "Nova Square", serif;
+
 }
 
-.logo{
+body{
+    background-color: #ececec;
+}
+
+.primoLogo{
+    width: 100px;    
+}
+
+nav{
+    background-color: #ececec !important;
+}
+
+header{
+    background-image: url(../media/switzerland-862870_1920.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    font-size: 80px;
+    letter-spacing: 0.8em;
+    color: darkred;
+}
+
+.gradientOverlay{
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 100%); 
+}
+
+.mountainsOverlay{
+    bottom: 0px;
+    width: 90vw;
+}
+
+.text1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    width: 40%;
+    text-align:center;
+}
+
+.card1Webfont {
+    font-size: 50px;
+    color: darkred;
     text-align: center;
 }
 
-.logo-img{
-    width: 150px;
-
+h5 {
+    text-align: center;
 }
 
-.lista{
-    list-style: none; 
-    margin-top: 30px;
+.card1 {
+    border: 0px solid black;
+    /* background: rgba(0,0,0,0.1); */
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 20rem;
 }
 
-a{
-    text-decoration: none;
-    color: gray
+.card1 hr {
+    border: 3px solid darkred;
+    opacity: 100%;
 }
 
-.imgsfondo1{
-background-repeat: no-repeat;
-background-size: cover;
-height: 100vh;
-width: 100%;
+.circle {
+    height: 24px;
+    width: 24px;
+    background-color: white;
+    border: 2px solid darkred;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;         
+    left: 0;
+    right: 0;
+    margin-inline: auto;
 }
 
-.titolo{
-
-font-size: 10vh;
-
+.cardCircle {       
+    bottom: -9px;
 }
 
-.sfondo1{
-    /* background-image: url(../media/switzerland-862870_1920.jpg); */
-    background-repeat: no-repeat;
+.h2Box {
+    width: 25%;
+}
+
+h2 {
+    color: darkred;
+}
+
+.clickBtn {
+    background-color: darkred;
+    color: white;
+    border-radius: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 10px 40px;
+}
+
+.clickBtnBG {
+    background-image: url(../media/trees2.png);
     background-size: cover;
-    min-height: 100vh;
+    height: 60vh;
 }
 
-.title{
-    font-family: "Nova Square", serif;
-    font-style: normal;
-    Color: darkred;
-    font-size: 7vh;
-    letter-spacing: 5vh;
-    margin-left: 5vh;
-  }
+.timeline {
+    background-color: white;
+    background-size:contain;
+}
+
+.vLine {
+    border-left: 6px solid darkred;
+    height: 100%;
+}
+
+.timelineTrees {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+h3 {
+    color: darkred;
+}
+
+.lineCircle {
+    left: -15px;
+}
+
+.roundImg {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    padding: 8px;
+}
+
+.card2Title {
+    color: darkred;
+}
+
+.card2Text {
+    margin-top: 3px;
+    font-size: 10pt;
+    font-style: italic;
+    text-align: center;
+}
+
+.card2Webfont {
+    color: darkred;
+}
+
+.socialIcons {
+    width: 40%;
+}
+
+h4 {
+    color: darkred;
+}
+
+.roundImgLarge {
+    width: 275px;
+    height: 275px;
+}
+
+.benefitTextContainer {
+    width: 50%;
+}
+
+.footerSep {
+    background-image: url(../media/other.png);
+    height: 50vh;
+    background-size: cover;
+}
+
+footer {
+    background-color: darkred;
+    color: white;
+}
+
+.footerTitle {
+    color: white;    
+}
+
+.footerSubtitle {
+    color: white;
+}
+
+.timelineTextContainer {
+    border-left: 3px solid darkred;
+    padding-left: 15px;
+}
+
+.timelineTextContainer h3:before {
+    content:'';    
+    height: 24px;
+    width: 24px;
+    background-color: white;
+    border: 2px solid darkred;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;         
+    left: -14px;    
+    margin-inline: auto;
+}

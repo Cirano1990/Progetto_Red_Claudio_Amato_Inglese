@@ -1,14 +1,11 @@
-*{
-    font-family: "Nova Square", serif;
-
-}
 
 body{
+    font-family: "Nova Square", serif;
     background-color: #ececec;
 }
 
 .primoLogo{
-    width: 100px;    
+    width: 15vh;    
 }
 
 nav{
@@ -22,7 +19,8 @@ header{
 }
 
 h1{
-    font-size: 80px;
+
+    font-size: 10vh;
     letter-spacing: 0.8em;
     color: darkred;
 }
@@ -102,9 +100,9 @@ h2 {
 }
 
 .clickBtnBG {
-    background-image: url(../media/trees2.png);
+    background-image:url(../media/trees2.png);
     background-size: cover;
-    height: 60vh;
+    height: 50vh;
 }
 
 .timeline {
@@ -206,4 +204,9 @@ footer {
     position: absolute;         
     left: -14px;    
     margin-inline: auto;
+}
+
+sup, sub{
+    color: darkred;
+    font-size: 6vh;
 }
